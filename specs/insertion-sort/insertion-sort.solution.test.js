@@ -19,7 +19,7 @@ function insertionSort(nums) {
       nums[j + 1] = nums[j];
     }
 
-    // do the insertion
+    // do the insertion after the number which is smaller than numberToInsert
     nums[j + 1] = numberToInsert;
   }
   return nums;
